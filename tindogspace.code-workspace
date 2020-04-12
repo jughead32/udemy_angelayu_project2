@@ -4,5 +4,28 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.fontFamily": "Fira Code",
+		"editor.tabSize": 2
+	}
+}{
+  "workbench.colorTheme": "Hop Light",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 2,
+  
+  // Pre VS Code 1.15
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  // As of VS Code 1.15
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+  "editor.minimap.enabled": false  
+  "editor.formatOnSave": true,
+  
+  "javascript.format.enable": true,
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true,
+  "prettier.tabWidth": 2,
 }
