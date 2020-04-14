@@ -1,25 +1,19 @@
 /* global styles */
 body {
-	font-family: "Montsterrat";
+	font-family: "Montserrat";
 	line-height: 1.5;
+	text-align: center;
 }
-
-h1 {
-	font-family: "Montserrat";
+h1, h2, h3 {
 	font-size: 3.5rem;
-	font-weight: bold;
-}
-h2 {
-	font-family: "Montserrat";
-	font-weight: bold;
-	font-size: 3rem;
-}
-h3 {
-	font-family: "Montserrat";
 	font-weight: bold;
 }
 p {
 	color: #8f8f8f;
+}
+/* Containers */
+.container-fluid {
+	padding: 7% 15%;
 }
 /* nav bar styles */
 .navbar {
@@ -35,7 +29,6 @@ p {
 }
 .nav-link {
 	font-size: 1.2rem;
-	font-family: "Monsterrat";
 	font-weight: 200;
 }
 /* download buttons */
@@ -50,17 +43,21 @@ p {
 	position: absolute;
 	right: 30%;
 }
-.container-fluid {
-	padding: 3% 15%;
-}
+
 #title {
 	background-color: #ff4c68;
 	color: #fff;
+}
+.title-card {
 	text-align: left;
 }
+#title .container-fluid {
+	padding: 3% 15% 7%;
+}
+
 /* Features section */
 #features {
-	padding: 7% 15%;
+
 	background-color: #fff;
 	position: relative;
 
@@ -69,8 +66,10 @@ p {
 .feature-text {
 	margin: auto;
 	line-height: 1.5;
-	text-align: center;
 	padding: 5%;
+}
+.feature-heading {
+	font-size: 1.5rem;
 }
 
 /* Testimonies */
@@ -81,45 +80,51 @@ p {
 }
 #testimonials {
 	background-color: #ef8172;
-	text-align: center;
+
 	color: #fff;
 }
-.carousel-item {
-	padding: 7% 15%;
+
+.testimonial-text {
+	font-size: 2rem;
+	line-height: 1.5;
 }
 /* Pricing */
 #pricing {
 	padding: 100px;
-	text-align: center;
+
 }
 .pricing-column {
 	padding: 3% 2%;
 }
-/* call to action and footer */
-#cta {
-	background-color: #ff4c68;
-	color: #fff;
-	text-align: center;
-	padding: 3% 15%;
-}
-.cta-h3 {
-	font-size: 3rem;
-	font-weight: bold;
-}
-footer {
-	text-align: center;
-	background-color: #fff;
+.card-header h3, h2{
+	font-size: 2.5rem;
 }
 /* Press section */
 #press {
 	background-color: #ef8172;
-	text-align: center;
+
 	padding-bottom: 3%;
 }
 .press-logo {
 	width: 16%;
 	margin: 20px 20px 50px;
 }
+
+/* call to action and footer */
+#cta {
+	background-color: #ff4c68;
+	color: #fff;
+
+}
+.cta-h3 {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+footer {
+
+	background-color: #fff;
+}
+
 @media (max-width: 1028px) {
 	.title-img {
 		transform: rotate(0);
